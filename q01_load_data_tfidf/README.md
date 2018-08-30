@@ -18,7 +18,7 @@ of Tf -idf (term frequency–inverse document frequency)
 | Parameter | dtype | argument type | default value | description |
 | --- | --- | --- | --- | --- | 
 | path | String | compulsory |  | Path of data folder |
-| max_df | float | optional | 0.5 | ignore terms freq that are higher than max_freq |
+| max_df | float | optional | 0.95 | ignore terms freq that are higher than max_freq |
 | min_df | int | optional | 2 | ignore terms freq that are lower than min_freq |
 | no_features | int | optional | 1000 | the no. of features to extract from data |
 
