@@ -9,7 +9,7 @@ which outputs the topics obtained after modelling.
 - Iterates over the return value (i.e Array of component matrix )
 from `q03_LDA` .
 - Sorts the multidimensional array consisting of feature names
-
+- Every topic in the list should be in a format `Topic {}: {}` where the first bracket signify the topic number starting from 0 and second bracket signify the topic extracted (hint: use string formatiing for this format)
 
 
 
