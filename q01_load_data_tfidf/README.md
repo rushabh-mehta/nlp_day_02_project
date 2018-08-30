@@ -8,7 +8,8 @@ of Tf -idf (term frequency–inverse document frequency)
 ## Write a function `q01_load_data_tfidf` that :
 - Loads the data from the given path.
 - Computes the `tf-idf` using function `TfidfVectorizer`()
-**Note - set the hyperparameters for TfidfVectorizer() as `max_df=max_df,min_df=min_df,max_features=no_features,stop_words='english'`**.
+
+ **Note - set the hyperparameters for TfidfVectorizer() as `max_df=max_df,min_df=min_df,max_features=no_features,stop_words='english'`**.
 - Fits and transform the feature `talkTitle` of data set.
 
 
